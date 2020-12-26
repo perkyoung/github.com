@@ -9,7 +9,7 @@
     
     <meta name="author" content="小杨同志">
     
-    <meta name="description" content="TimeWait，就是那个断开TCP连接时，发第一个FIN，发最后一个ACK后进入的那个状态；我们经常会被问到：“服务器TimeWait状态的连接过多应该如何解决？”。大家都关注了如何解决，网上关于它的解决方案的帖子也很多，大部分就是调整参数。但是忽略了一个重要的问题就是为什么会出现在服务器端？让客">
+    <meta name="description" content="TimeWait，就是那个断开TCP连接时，发第一个FIN，发最后一个ACK后进入的那个状态；我们经常会被问到：“服务器处于TimeWait状态的连接过多应该如何解决？”。如何解决，成了这句话的重点，网上关于它的解决方案的帖子也很多，大部分就是调整参数。但是我们忽略了一个重要的问题就是为什么会出现在">
     
     
     
@@ -75,7 +75,7 @@
     </p>
   <p class="article-time">
     <time datetime="2020-12-10T00:15:29.000Z" itemprop="datePublished">2020-12-10</time>
-    Updated:<time datetime="2020-12-10T09:49:24.400Z" itemprop="dateModified">2020-12-10</time>
+    Updated:<time datetime="2020-12-10T14:36:17.861Z" itemprop="dateModified">2020-12-10</time>
     
   </p>
 </header>
@@ -87,7 +87,7 @@
 		
 		</div>
 		
-		<p>TimeWait，就是那个断开TCP连接时，发第一个FIN，发最后一个ACK后进入的那个状态；我们经常会被问到：“服务器TimeWait状态的连接过多应该如何解决？”。大家都关注了如何解决，网上关于它的解决方案的帖子也很多，大部分就是调整参数。但是忽略了一个重要的问题就是为什么会出现在服务器端？让客户端首先发FIN，最后进入TimeWait不更好吗？为什么是现在这样子？它与web性能又有什么关系？</p>
+		<p>TimeWait，就是那个断开TCP连接时，发第一个FIN，发最后一个ACK后进入的那个状态；我们经常会被问到：“服务器处于TimeWait状态的连接过多应该如何解决？”。如何解决，成了这句话的重点，网上关于它的解决方案的帖子也很多，大部分就是调整参数。但是我们忽略了一个重要的问题就是为什么会出现在服务器端？让客户端首先发FIN，最后进入TimeWait不更好吗？为什么是现在这样子？它与web性能又有什么关系？</p>
   
 	</div>
 		<footer class="article-footer clearfix">
